@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build outputs
+dist/
+build/
+target/
+*.class
+
+# Environment and sensitive data
+.env
+.env.local
+.env.*.local
+
+# Databases and runtime data
+data/
+*.db
+*.log
+
+# IDE & Editor files
+.idea/
+*.iml
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Maven portable distribution
+apache-maven-3.9.9/
+maven.zip
